@@ -18,8 +18,17 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/components/*": ["components/*"],
+      "@/components": ["components"],
+      "@/context": ["context"],
+      "@/ui/*": ["components/ui/*"],
+      "@/icons/*": ["icons/*"],
+      "@/interface/*": ["interface/*"],
+      "@/utils/*": ["utils/*"],
+      "@/api/*": ["api/*"]
     }
   },
   "include": [
