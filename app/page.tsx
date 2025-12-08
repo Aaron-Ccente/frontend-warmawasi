@@ -1,3 +1,4 @@
+import FooterMain from "@/components/footer/FooterMain";
 import Services from "@/components/home/Services";
 import Carrusel from "@/components/ui/Carrusel";
 
@@ -8,6 +9,8 @@ export default function Home() {
       <Carrusel/>
       {/* Servicioss */}
       <Services/>
+      {/* Footer */}
+      <FooterMain/>
     </div>
   );
 }
