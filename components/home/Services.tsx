@@ -12,7 +12,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="flex justify-center py-12 px-4">
+    <section className="flex justify-center py-12 px-4 bg-gray-100">
       <div className="w-full max-w-[1300px] grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
         <div className="hidden lg:flex justify-center">
@@ -28,7 +28,7 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col gap-4 py-6">
-        <h2 className="text-center font-bold text-2xl text-[#c72a79]">Servicios de Warma Wasi</h2>
+        <h2 className="text-center font-bold text-3xl md:text-4xl text-[#c72a79]">Servicios de Warma Wasi</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-5 place-items-center">
           {services.map((service, index) => (
             <div
