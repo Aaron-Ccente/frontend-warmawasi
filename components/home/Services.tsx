@@ -1,8 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
-export default function Services() {
-  const services = [
+export const services = [
     { title: "servicio1", icon: "/icons/svg/ImgsServicios/TeenTherapy.svg", name: "Icono", link: "" },
     { title: "servicio1", icon: "/icons/svg/ImgsServicios/familyTherapy.svg", name: "Icono", link: "" },
     { title: "servicio1", icon: "/icons/svg/ImgsServicios/coupleTherapy.svg", name: "Icono", link: "" },
@@ -11,6 +10,8 @@ export default function Services() {
     { title: "servicio1", icon: "/icons/svg/ImgsServicios/childTherapy.svg", name: "Icono", link: "" },
   ];
 
+export default function Services() {
+  
   return (
     <section className="flex justify-center py-12 px-4 bg-gray-100">
       <div className="w-full max-w-[1300px] grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
