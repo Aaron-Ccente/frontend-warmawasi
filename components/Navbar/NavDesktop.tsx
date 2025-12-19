@@ -8,7 +8,8 @@ const navItems: Nav[] = [
   { name: "Home", ref: "" },
   { name: "Sobre Nosotros", ref: "sobre-nosotros" },
   { name: "Servicios", ref: "servicios" },
-  { name: "Consultar cita", ref: "donde-estamos" },
+  { name: "Ubícanos", ref: "donde-estamos" },
+  { name: "Consultar cita", ref: "consultar-cita" },
   { name: "Iniciar Sesión", ref: "login" },
 ];
 
